@@ -13,4 +13,4 @@ links = [a.get('href') for a in soup.find_all('a')]
 # Print the href attributes
 with open('links.txt', 'w', encoding='utf-8') as file:
     for link in links:
-        file.write(f"{link}\n")
+        file.write(f"https://www.facebook.com{link}\n")
