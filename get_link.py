@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 # Load your HTML content
 with open('facebook_page.html', 'r', encoding='utf-8') as file:
     html_content = file.read()
-
+#zzzz
 # Create a BeautifulSoup object
 soup = BeautifulSoup(html_content, 'html.parser')
 
